@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Buscar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-searchbar style="background-color: aliceblue; color: black;" placeholder="Artista, música ou podcasts" color="white" animated></ion-searchbar>
+<br>
+<ion-label>
+    Seus gêneros favoritos
+  </ion-label>
+  <br>
+  <ion-row>
+  <ion-card>
+    <ion-button  style="height: 100px; width: 200px; display: block" color="warning"> Hip Hop</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-button style="height: 100px; width: 200px; display: inline-block" color="success"> Pop</ion-button>
+  </ion-card>
+</ion-row>
+
+
+<br>
+<ion-label>
+    Podcasts populares
+  </ion-label>
+  <br>
+  <ion-row>
+  <ion-card>
+    <ion-button  style="height: 100px; width: 200px; display: block" color="secondary">Lançamentos de Podcast</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-button style=" height: 100px; width: 200px; display: inline-block" color="medium">Podcasts originais e exclusivos</ion-button>
+  </ion-card>
+</ion-row>
+
+<br>
+<ion-label>
+    Navegue por todas as seções
+  </ion-label>
+  <br>
+  <ion-row>
+  <ion-card>
+    <ion-button  style="height: 100px; width: 200px; display: block" color="danger">Lançamentos</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-button style=" height: 100px; width: 200px; display: inline-block" color="alert">Feito pra você</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-button style=" height: 100px; width: 200px; display: inline-block" color="primary">Paradas</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-button style=" height: 100px; width: 200px; display: inline-block" color="success">Descobrir</ion-button>
+  </ion-card>
+</ion-row>
+
+
+
+<ion-tabs  style="position:sticky;">
+  <ion-tab-bar slot="bottom">
+
+    <ion-tab-button routerLink="/inicio">
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Início</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button routerLink="/busca">
+      <ion-icon name="search"></ion-icon>
+      <ion-label>Busca</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button routerLink="/biblioteca">
+      <ion-icon name="folder-open-outline"></ion-icon>
+      <ion-label>Perfil</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+
+
+</ion-content>
