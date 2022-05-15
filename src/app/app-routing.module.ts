@@ -19,10 +19,6 @@ const routes: Routes = [
     path: 'busca',
     loadChildren: () => import('./tabs/busca/busca.module').then( m => m.BuscaPageModule)
   },
-  {
-    path: 'inicio',
-    loadChildren: () => import('./tabs/inicio/inicio.module').then( m => m.InicioPageModule)
-  },
 ];
 
 @NgModule({
